@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: -moz-repeating-linear-gradient(imagea-jpg);
+  }
+  
+  .menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-category {
+    margin-top: 20px;
+  }
+  
+  .menu-category h2 {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+  }
+  
+  .menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price {
+    color: #009688;
+  }

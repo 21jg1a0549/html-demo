@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>order now</title>
+</head>
+<body>
+    <button id="myButton">Place Order</button>
+    <p id="message" style="display:none;">Your order placed Successfully</p>
+
+    <script>
+        // Get the button and message elements by their IDs
+        var button = document.getElementById("myButton");
+        var message = document.getElementById("message");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function () {
+            // Display the message when the button is clicked
+            message.style.display = "block";
+        });
+    </script>
+</body>
+</html>
